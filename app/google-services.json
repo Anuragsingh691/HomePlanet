@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "787039508262",
+    "firebase_url": "https://appsolarar.firebaseio.com",
+    "project_id": "appsolarar",
+    "storage_bucket": "appsolarar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787039508262:android:6c7f958927ed818a52d3e7",
+        "android_client_info": {
+          "package_name": "com.example.appsolarar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787039508262-kjiormo8b4mnnl5soi8vdg2n8r1d71k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNm2i8dgEzF7ZnRBptDXWhN24hIh925Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787039508262-kjiormo8b4mnnl5soi8vdg2n8r1d71k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

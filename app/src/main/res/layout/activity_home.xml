@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue Marble"
+        android:fontFamily="@font/maitree"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/earth_card"
+        android:layout_width="220dp"
+        android:layout_height="260dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="100dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/img1"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/earth_select"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"
+            android:textColor="#000"
+            android:fontFamily="@font/maitree"
+            android:text="Home Planet"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/earth_card"
+        android:layout_width="220dp"
+        android:layout_height="250dp"
+        android:id="@+id/vr_card"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="60dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/vr"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vr_card"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp"
+            android:textColor="#000"
+            android:fontFamily="@font/maitree"
+            android:text="Solar System AR"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

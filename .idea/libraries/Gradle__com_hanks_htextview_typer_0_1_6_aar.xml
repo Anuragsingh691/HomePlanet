@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hanks:htextview-typer:0.1.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c211158f1b67ac9bb60afb36d56ffa22/jetified-htextview-typer-0.1.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c211158f1b67ac9bb60afb36d56ffa22/jetified-htextview-typer-0.1.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c211158f1b67ac9bb60afb36d56ffa22/jetified-htextview-typer-0.1.6/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hanks/htextview-typer/0.1.6/1aa11f0747da4284759e19de7d297fd47576bcaa/htextview-typer-0.1.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hanks/htextview-typer/0.1.6/d262b1e56140c64fc5e0d504d77db5f217874fc4/htextview-typer-0.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
